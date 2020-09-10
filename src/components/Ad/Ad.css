@@ -1,0 +1,43 @@
+.ad {
+    position: relative;
+    width: 350px;
+    padding: 10px;
+    margin-right: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.ad:hover {
+    box-shadow: 2px 2px 5px #8f8e7e;
+}
+
+.ad-title {
+    font-weight: bold;
+
+}
+
+.ad-info {
+    padding: 5px;
+}
+
+.ad-info div {
+    border-bottom: 1px solid #000;
+}
+
+.ad-text {
+    margin-bottom: 10px;
+}
+
+.ad-number {
+    margin-bottom: 10px;
+}
+
+.ad-delete {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}

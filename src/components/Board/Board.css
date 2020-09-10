@@ -1,0 +1,8 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1130px;
+    padding: 40px 15px 0 15px;
+    margin: 0 auto;
+}
