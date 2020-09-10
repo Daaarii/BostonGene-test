@@ -16,11 +16,11 @@
 
 .ad-title {
     font-weight: bold;
-
 }
 
 .ad-info {
     padding: 5px;
+    text-align: justify;
 }
 
 .ad-info div {

@@ -18,19 +18,19 @@ export default class extends Component {
             {
                 title: 'iphone X',
                 text: 'Продам iphone X, новый, коробка не вскрывалась',
-                phoneNumber: '+3',
+                phoneNumber: '+78005553535',
                 city: 'Москва',
             },
             {
                 title: '1',
                 text: 'Продам iphone X, новый, коробка не вскрывалась',
-                phoneNumber: '+asf',
+                phoneNumber: '+78005553535',
                 city: 'Москва',
             },
             {
                 title: '2',
                 text: 'Продам iphone X, новый, коробка не вскрывалась',
-                phoneNumber: '+4',
+                phoneNumber: '+78005553535',
                 city: 'Москва',
             }
         ]

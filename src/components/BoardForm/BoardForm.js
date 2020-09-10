@@ -43,7 +43,14 @@ export default class BoardForm extends Component {
             <form className="board-form">
                 <div>
                     <span>Заголовок:</span>
-                    <input value={title} type="text" name="title" maxlength="140" style={this.state.titleVal ? null : {borderColor: 'red'}} onChange={this.onChangeTitleHandler} />
+                    <input 
+                        value={title} 
+                        type="text" 
+                        name="title" 
+                        maxlength="140" 
+                        style={this.state.titleVal ? null : {borderColor: 'red'}} 
+                        onChange={this.onChangeTitleHandler} 
+                    />
                 </div>
                 <div>
                     <span>Информация о товаре:</span>
@@ -51,7 +58,14 @@ export default class BoardForm extends Component {
                 </div>
                 <div>
                     <span>Телефон:</span>
-                    <input value={phoneNumber} type="text" name="phoneNumber" placeholder="Формат: +7 (ххх) ххх-хх-хх" style={this.state.phoneNumberVal ? null : {borderColor: 'red'}} onChange={this.onChangePhoneNumberHandler} />
+                    <input 
+                        value={phoneNumber} 
+                        type="text" 
+                        name="phoneNumber" 
+                        placeholder="Формат: +7 (ххх) ххх-хх-хх" 
+                        style={this.state.phoneNumberVal ? null : {borderColor: 'red'}} 
+                        onChange={this.onChangePhoneNumberHandler} 
+                    />
                 </div>
                 <div>
                     <span>Выберите город:</span>
@@ -74,7 +88,12 @@ export default class BoardForm extends Component {
                     </div>
                 </div>
                 <div className="required">* - обязательное поле</div>
-                <button disabled={!(titleVal && phoneNumberVal)} onClick={(e) => addNewAd(title, text, phoneNumber, city, e)}>Опубликовать объявление</button>
+                <button 
+                    disabled={!(titleVal && phoneNumberVal)} 
+                    onClick={(e) => addNewAd(title, text, phoneNumber, city, e)}
+                >
+                    Опубликовать объявление
+                </button>
             </form>
         )
     }
