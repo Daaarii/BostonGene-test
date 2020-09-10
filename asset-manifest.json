@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BostonGene-test/static/css/main.f88d77c0.chunk.css",
+    "main.js": "/BostonGene-test/static/js/main.ffc2d991.chunk.js",
+    "main.js.map": "/BostonGene-test/static/js/main.ffc2d991.chunk.js.map",
+    "runtime-main.js": "/BostonGene-test/static/js/runtime-main.0dc792d7.js",
+    "runtime-main.js.map": "/BostonGene-test/static/js/runtime-main.0dc792d7.js.map",
+    "static/js/2.430f1c09.chunk.js": "/BostonGene-test/static/js/2.430f1c09.chunk.js",
+    "static/js/2.430f1c09.chunk.js.map": "/BostonGene-test/static/js/2.430f1c09.chunk.js.map",
+    "index.html": "/BostonGene-test/index.html",
+    "precache-manifest.3430b70521b58631ed44f4632155762f.js": "/BostonGene-test/precache-manifest.3430b70521b58631ed44f4632155762f.js",
+    "service-worker.js": "/BostonGene-test/service-worker.js",
+    "static/css/main.f88d77c0.chunk.css.map": "/BostonGene-test/static/css/main.f88d77c0.chunk.css.map",
+    "static/js/2.430f1c09.chunk.js.LICENSE.txt": "/BostonGene-test/static/js/2.430f1c09.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0dc792d7.js",
+    "static/js/2.430f1c09.chunk.js",
+    "static/css/main.f88d77c0.chunk.css",
+    "static/js/main.ffc2d991.chunk.js"
+  ]
+}
